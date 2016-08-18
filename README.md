@@ -2,6 +2,8 @@
 
 a repro case project for pedestal issue https://github.com/pedestal/pedestal/issues/386
 
+as of 2016-08-16
+
 ## Usage
 
 0. clone this project and go to this project root directory in terminal
