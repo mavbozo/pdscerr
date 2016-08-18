@@ -28,6 +28,7 @@
 
 (def service
   {::http/interceptors [servlet-interceptor/exception-debug
+                        middlewares/cookies
                         (middlewares/session {})
                         (csrf/anti-forgery {:cookie-token true})
                         (route/router routes :map-tree)]
